@@ -6,7 +6,7 @@ public class semaforo extends JPanel {
     
     public void paint(Graphics g){
         super.paint(g);
-        this.setBackground(Color.white);
+        this.setBackground(Color.black);
         
         // rectangulo 
         g.setColor(Color.black);
