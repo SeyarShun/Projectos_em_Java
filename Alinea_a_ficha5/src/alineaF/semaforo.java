@@ -27,7 +27,7 @@ public class semaforo extends JPanel {
         // String
         g.setColor(Color.green);
         g.setFont(new Font("righteous", Font.BOLD, 25));
-        g.drawString("Semafero", 200, 130);
+        g.drawString("Suma Suma", 200, 130);
         
         
     }
