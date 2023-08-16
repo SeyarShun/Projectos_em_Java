@@ -7,15 +7,15 @@ public class semaforo extends JPanel {
     public void paint(Graphics g){
         super.paint(g);
         this.setBackground(Color.white);
-        
+         ////////////////////////////////////////////////////////////////////////// Branch rectângulo equipe 1
         // rectangulo 
         g.setColor(Color.black);
         g.drawRect(150, 180, 200, 400);
-        
+  ////////////////////////////////////////////////////////////////////////// Branch círculo equipe 2      
         // circulo 1
         g.setColor(Color.red);
         g.fillOval(200, 200, 100, 100);
-        
+         ////////////////////////////////////////////////////////////////////////// Branch círculo equipe 3
         // circulo 2
         g.setColor(Color.orange);
         g.fillOval(200, 320, 100, 100);
