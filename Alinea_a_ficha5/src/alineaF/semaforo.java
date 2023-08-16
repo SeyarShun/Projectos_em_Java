@@ -11,6 +11,10 @@ public class semaforo extends JPanel {
         // rectangulo 
         g.setColor(Color.black);
         g.drawRect(150, 180, 200, 400);
+
+        // rectangulo 
+        g.setColor(Color.black);
+        g.fillRect(450, 180, 200, 400);
   ////////////////////////////////////////////////////////////////////////// Branch círculo equipe 2      
         // circulo 1
         g.setColor(Color.red);
